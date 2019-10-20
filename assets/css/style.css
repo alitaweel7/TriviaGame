@@ -1,0 +1,64 @@
+body { 
+     
+    /* planet background*/
+    background-image: url("../images/planet.jpg");
+    
+}
+
+header {
+    text-align: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+.wrapper {
+margin-top: 15px;
+background-color: rgb(252, 255, 93);
+height: 575px;
+left: 20%;
+right: 20%;
+
+} 
+
+h2{
+    display: none;
+}
+
+#gameTimer {
+    display: none;
+}
+
+.buttonProperties {
+background-color: pink;
+margin-left: 350px;
+}
+
+.btn-primary:hover { 
+    border-width: 5px;
+
+    border-color: rgb(144, 236, 82); background-color: rgb(20, 250, 231);
+   
+ }
+
+ .hoverdiv:hover {
+    height: 40px;
+    width: 500px;
+    border-width: 5px;
+    padding: 5px;
+    border-color: rgb(144, 236, 82); background-color: rgb(20, 250, 231);
+    font-weight: bold;
+ }
+
+ .questionCSS {
+     text-align: center;
+     font-weight: bolder;
+ }
+
+ .questionCurrent {
+    
+     margin-left: 175px;
+ }
+
+ #displayCorrect {
+     display: none;
+ }
